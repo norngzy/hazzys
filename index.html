@@ -21,7 +21,7 @@
     <div id="wrap">
         <header>
             <div class="h_top">
-                <h1><a href="#"><img src="./images/hazzys_logo.png" alt="헤지스"></a></h1>
+                <h1><a class="h_logo" href="#"><img src="./images/hazzys_logo.png" alt="헤지스"></a></h1>
                 <ul class="top_lnb">
                     <li><a href="#">EN</a></li>
                     <li><a href="#">CN</a></li>
@@ -61,16 +61,16 @@
                                     <li><a href="#">COLLECTION</a></li>
                                     <li><a href="#">HAZZYS HAPPY</a></li>
                                 </ul>
-                                <ul class="ladies_dept2_detail">
-                                    <li><img src="./images/newseason.jpg" alt="여성의류아우터"></li>
-                                    <li><a href="#">NEW SEASON NEW BEAT</a></li>
-                                    <li><a href="#">새로운 계절의 비트</a></li>
-                                </ul>
-                                <ul class="ladies_dept2_detail">
-                                    <li><img src="./images/premiumgoose.jpg" alt="여성의류구스다운"></li>
-                                    <li><a href="#">PREMIUM GOOSE DOWN</a></li>
-                                    <li><a href="#">부드러운 볼륨과 온기</a></li>
-                                </ul>
+                                <div class="ladies_dept2_detail">
+                                    <a style="background-image:url(./images/newseason.jpg);"></a>
+                                    <p>NEW SEASON NEW BEAT</p>
+                                    <p>새로운 계절의 비트</p>
+                                </div>
+                                <div class="ladies_dept2_detail">
+                                    <a style="background-image:url(./images/premiumgoose.jpg);"></a>
+                                    <p>PREMIUM GOOSE DOWN</p>
+                                    <p>부드러운 볼륨과 온기</p>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -120,7 +120,7 @@
                 <a class="arr_top" href="#"><img src="./images/ico_top.png" alt="위로가기"></a>
             </div>
             <div class="bag_container">
-                <div class="bag_contents">
+                <div class="main_bag">
                     <a href="#"><img src="./images/bag_main.jpg" alt="메인가방"></a>
                     <div class="contents_text">
                         <h1>먼저 만나보는 ESSENTIAL BAG</h1>
@@ -128,14 +128,18 @@
                         <a href="#"><span>VIEW NOW</span></a>
                     </div>
                 </div>
-                <div class="bag_contents_slide">
+                <div class="bag_contents">
+                    <div class="bag_contents_slide">
                         <a href="#"><img src="./images/bag1.jpg" alt="가방1"></a>
                         <a href="#"><img src="./images/bag2.jpg" alt="가방2"></a>
                         <a href="#"><img src="./images/bag3.jpg" alt="가방3"></a>
                         <a href="#"><img src="./images/bag4.jpg" alt="가방4"></a>
+                    </div>
                     <div class="p_gination">
-                        <span class="active"><a href="#"></a></span>
-                        <span class="all"></span>
+                        <a class="active" href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
                     </div>
                 </div>
             </div>
@@ -158,63 +162,77 @@
             <div class="event_container">
                 <h1><img src="./images/hazzys_logo_icon.png" alt="헤이즈로고">WITH HAZZYS</h1>
                 <div class="event_contents">
-                    <ul class="contents_benefit">
-                        <li><a href="#"><img src="./images/benefit.jpg" alt="혜택"></a></li>
-                        <li><h2><a href="#">HAZZYS.COM BENEFIT GUIDE</a></h2></li>
-                        <li><p>헤지스 멤버가 되고 최대 15% 할인 혜택을 받아보세요.</p></li>
+                    <ul class="flgship">
+                        <li class="flgship_contents">
+                            <a href="#"><img src="./images/flaship.jpg" alt="플래그십스토어"></a>
+                            <h2><a href="#">HAZZYS GLOBAL FLAGSHIP STORE</a></h2>
+                            <a href="#">SPACE H SHANGHAI. 상해에 오픈한 글로벌 첫 플래그십 스토어로 초대합니다.</a>
+                        </li>
                     </ul>
-                    <ul class="contents_flagship">
-                        <li><a href="#"><img src="./images/flaship.jpg" alt="플래그십스토어"></a></li>
-                        <li><h2><a href="#">HAZZYS GLOBAL FLAGSHIP STORE</a></h2></li>
-                        <li><p>SPACE H SHANGHAI. 상해에 오픈한 글로벌 첫 플래그십 스토어로 초대합니다.</p></li>
+                    <ul class="benefit">
+                        <li class="benefit_contents">
+                            <a href="#"><img src="./images/benefit.jpg" alt="혜택"></a>
+                            <h2><a href="#">HAZZYS.COM BENEFIT GUIDE</a></h2>
+                            <a href="#">헤지스 멤버가 되고 최대 15% 할인 혜택을 받아보세요.</a>
+                        </li>
                     </ul>
-                    <ul class="contents_design">
-                        <li><a href="#"><img src="./images/design.jpg" alt="디자인공모전"></a></li>
-                        <li><h2><a href="#">HAZZYS DESIGN COMPETITON</a></h2></li>
-                        <li><p>제 2회 헤지스 디자인 공모전 수상작을 만나보세요.</p></li>
+                    <ul class="design">
+                        <li class="design_contents">
+                            <a href="#"><img src="./images/design.jpg" alt="디자인공모전"></a>
+                            <h2><a href="#">HAZZYS DESIGN COMPETITON</a></h2>
+                            <a href="#">제 2회 헤지스 디자인 공모전 수상작을 만나보세요.</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </main>
         <footer>
             <div class="info">
-                <dl class="address">
-                    <dt>(주)LF</dt>
-                    <dd>대표이사 :김상균</dd>
-                    <dd>주소:서울 강남구 언주로870</dd>
-                    <dd>1544-5114(유료)</dd>
-                    <dd>lfcs@lfcorp.com</dd>
-                    <dd>통신판매업신고:제2010-서울강남-00066호</dd>
-                    <dd>사업자등록번호:211-87-87724</dd>
-                    <dd><a href="#"><span>사업자 정보확인</span></a></dd>
-                    <dd>우리은행 구매안전 서비스</dd>
-                    <dd><a href="#"><span>서비스 가입사실 확인</span></a></dd>
-                    <dd>&copy;2023 HAZZYS ALL RIGHTS RESERVED</dd>
-                </dl>
-                <dl class="notic">
-                    <dt>NOTCE</dt>
-                    <dd>공지사항</dd>
-                    <dd>이용약관</dd>
-                    <dd><a href="#">개인정보 처리방침</a></dd>
-                    <dd><a href="#">읽기쉬운 개인정보처리방침</a></dd>
-                </dl>
-                <dl class="help">
-                    <dt>HELP</dt>
-                    <dd>고객센터</dd>
-                    <dd>패밀리인증</dd>
-                </dl>
-                <dl class="app">
-                    <dt>APP</dt>
-                    <dd><a href="#"><img src="./images/img_txt_hazzysApp.svg" alt="앱바로가기"></a></dd>
-                    <dd><a href="#">다운로드<img src="./images/icon_download.svg" alt="다운로드바로가기"></a></dd>
-                </dl>
-                <dl class="sns">
-                    <dt><img src="./images/hazzys_logo.png" alt="헤지스"></dt>
-                    <dd><a href="#"><img src="./images/ico_instagram.svg" alt="인스타"></a></dd>
-                    <dd><a href="#"><img src="./images/ico_youtube.svg" alt="유튜브"></a></dd>
-                    <dd><a href="#"><img src="./images/ico_facebook.svg" alt="페이스북"></a></dd>
-                    <dd><a href="#"><img src="./images/ico_kakao.svg" alt="카카오톡"></a></dd>
-                </dl>
+                <div class="info_top">
+                    <div class="info_top_left">
+                        <dl class="address">
+                            <dt>(주)LF</dt>
+                            <dd>대표이사 :김상균</dd>
+                            <dd>주소:서울 강남구 언주로870</dd>
+                            <dd>1544-5114(유료)</dd>
+                            <dd>lfcs@lfcorp.com</dd>
+                            <dd>통신판매업신고:제2010-서울강남-00066호</dd>
+                            <dd>사업자등록번호:211-87-87724</dd>
+                            <dd><a href="#"><span>사업자 정보확인</span></a></dd>
+                            <dd>우리은행 구매안전 서비스</dd>
+                            <dd><a href="#"><span>서비스 가입사실 확인</span></a></dd>
+                            <dd>&copy;2023 HAZZYS ALL RIGHTS RESERVED</dd>
+                        </dl>
+                    </div>
+                    <div class="info_top_right">
+                        <dl class="notic">
+                            <dt>NOTCE</dt>
+                            <dd>공지사항</dd>
+                            <dd>이용약관</dd>
+                            <dd><a href="#">개인정보 처리방침</a></dd>
+                            <dd><a href="#">읽기쉬운 개인정보처리방침</a></dd>
+                        </dl>
+                        <dl class="help">
+                            <dt>HELP</dt>
+                            <dd>고객센터</dd>
+                            <dd>패밀리인증</dd>
+                        </dl>
+                        <dl class="app">
+                            <dt>APP</dt>
+                            <dd><a href="#"><img src="./images/img_txt_hazzysApp.svg" alt="앱바로가기"></a></dd>
+                            <dd><a href="#">다운로드<img src="./images/icon_download.svg" alt="다운로드바로가기"></a></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="info_bottom">
+                    <p class="f_logo"><img src="./images/hazzys_logo.png" alt="헤지스"></p>
+                    <div class="sns">
+                        <a href="#"><img src="./images/ico_instagram.svg" alt="인스타"></a>
+                        <a href="#"><img src="./images/ico_youtube.svg" alt="유튜브"></a>
+                        <a href="#"><img src="./images/ico_facebook.svg" alt="페이스북"></a>
+                        <a href="#"><img src="./images/ico_kakao.svg" alt="카카오톡"></a>
+                    </div>
+                </div>
             </div>
         </footer>
     </div>
