@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="shortcut icon" href="./images/hazzys_logo_icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/hazzys_mascort.svg" type="image/x-icon">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
     <title>HAZZYS | 온라인 공식 플래그십</title>
@@ -15,14 +15,14 @@
         <div class="slide_banner">
             <a href="#"><img src="./images/hazzys_mascort.svg" alt="헤지스">글로벌 플래그십 스토어 첫 오픈,SPACE H SHANGHAI<img src="./images/more.svg" alt="더보기"></a>
             <a href="#"><img src="./images/hazzys_mascort.svg" alt="헤지스">글로벌 플래그십 스토어 첫 오픈,SPACE H SHANGHAI<img src="./images/more.svg" alt="더보기"></a>
-            <a href="#" class="close_btn">X</a>
         </div>
+        <button type="button" class="close_btn">X</button>
     </div>
     <div id="wrap">
         <header>
             <div class="h_top">
                 <h1><a href="#"><img src="./images/hazzys_logo.png" alt="헤지스"></a></h1>
-                <ul class="lnb">
+                <ul class="top_lnb">
                     <li><a href="#">EN</a></li>
                     <li><a href="#">CN</a></li>
                     <li><a href="#"><img src="./images/ico_search.png" alt="상품검색"></a></li>
@@ -35,15 +35,17 @@
                 <ul id="gnb">
                     <li><a href="#">스프링아우터</a></li>
                     <li><a href="#">LADIES</a>
-                        <ul class="ladies">
-                            <li><h1>LADIES</h1>
-                                <ul class="ladies_dept2">
+                        <div class="ladies">
+                            <div class="ladies_dept2">
+                            <h1>LADIES</h1>
+                                <ul class="ladies_dept2_list">
                                     <li><a href="#">전체보기<img src="./images/more.svg" alt="더보기"></a></li>
                                     <li><a href="#">BEST<img src="./images/more.svg" alt="더보기"></a></li>
                                 </ul>
-                            </li>
-                            <li><h2><a href="#">여성의류</a></h2>
-                                <ul class="ladies_dept2">
+                            </div>
+                            <div class="ladies_dept2">
+                                <h2><a href="#">여성의류</a></h2>
+                                <ul class="ladies_dept2_list">
                                     <li><a href="#">전체</a></li>
                                     <li><a href="#">아우터</a></li>
                                     <li><a href="#">니트/스웨터</a></li>
@@ -53,24 +55,24 @@
                                     <li><a href="#">팬츠</a></li>
                                     <li><a href="#">스커트</a></li>
                                 </ul>
-                            </li>
-                            <li><a href="#">COLLECTION</a></li>
-                            <li><a href="#">HAZZYS HAPPY</a></li>
-                            <li class="ladies_dept2">
+                            </div>
+                            <div class="ladies_dept2">
+                                <ul class="ladies_dept2_detail">
+                                    <li><a href="#">COLLECTION</a></li>
+                                    <li><a href="#">HAZZYS HAPPY</a></li>
+                                </ul>
                                 <ul class="ladies_dept2_detail">
                                     <li><img src="./images/newseason.jpg" alt="여성의류아우터"></li>
                                     <li><a href="#">NEW SEASON NEW BEAT</a></li>
                                     <li><a href="#">새로운 계절의 비트</a></li>
                                 </ul>
-                            </li>
-                            <li class="ladies_dept2">
                                 <ul class="ladies_dept2_detail">
                                     <li><img src="./images/premiumgoose.jpg" alt="여성의류구스다운"></li>
                                     <li><a href="#">PREMIUM GOOSE DOWN</a></li>
                                     <li><a href="#">부드러운 볼륨과 온기</a></li>
                                 </ul>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </li>
                     <li><a href="#">MEN</a></li>
                     <li><a href="#">ACC</a></li>
@@ -79,39 +81,45 @@
                     <li><a href="#">BEST</a></li>
                     <li><a href="#">HAZZYS HARRY</a></li>
                 </ul>
-            </div>
-                <ul class="lnb">
+                <ul class="bottom_lnb">
                     <li><a href="#">LOOKBOOK</a></li>
                     <li><a href="#">DISCOVER</a></li>
                     <li><a href="#">ABOUT'H'</a></li>
                 </ul>
+            </div>
         </header>
         <main>
             <div class="hero_banner">
-                <div class="slide_banner"><a href="#"><img src="./images/slide_banner1.jpg" alt="아우터배너"></a>
-                    <div class="slid_banner_txt">
-                        <h1>SPRING OUTERWEAR</h1>
-                        <p>겨울 끝에서 맞이하는 스프링 아우터웨어</p>
+                <div class="hero_banner_slide">
+                    <div class="slide_banner_outer">
+                        <a href="#"><img src="./images/slide_banner1.jpg" alt="아우터배너"></a>
+                        <div class="slid_banner_outer_txt">
+                            <h1>SPRING OUTERWEAR</h1>
+                            <p>겨울 끝에서 맞이하는 스프링 아우터웨어</p>
+                        </div>
+                    </div>
+                    <div class="slide_banner_gift">
+                        <a href="#"><img src="./images/slide_banner2.jpg" alt="설기프트배너"></a>
+                        <div class="slid_banner_gift_txt">
+                            <h1>함께라서 더 좋은 설날</h1>
+                            <p>모든 일상에 함께하는 타임리스 기프트</p>
+                        </div>
+                    </div>
+                    <div class="slide_banner_newseason">
+                        <a href="#"><img src="./images/slide_banner3.jpg" alt="뉴시즌아우터배너"></a>
                     </div>
                 </div>
-                <div class="slide_banner"><a href="#"><img src="./images/slide_banner2.jpg" alt="설기프트배너"></a>
-                    <div class="slid_banner_txt">
-                        <h1>함께라서 더 좋은 설날</h1>
-                        <p>모든 일상에 함께하는 타임리스 기프트</p>
-                    </div>
-                </div>
-                <div class="slide_banner"><a href="#"><img src="./images/slide_banner3.jpg" alt="뉴시즌아우터배너"></a></div>
                 <div class="p_gination">
                     <span class="currnet">1</span>
                     <span class="all">3</span>
                 </div>
             </div>
             <div class="snb">
-                <a href="#"><img src="./images/ico_kakao.svg" alt="카카오톡고객센터"></a>
-                <a href="#"><img src="./images/ico_recentProduct.svg" alt="최근에본상품"></a>
-                <a href="#"><img src="./images/ico_top.png" alt="위로가기"></a>
+                <a class="kakao" href="#"><img src="./images/ico_kakao.svg" alt="카카오톡고객센터"></a>
+                <a class="recent" href="#"><img src="./images/ico_recentProduct.svg" alt="최근에본상품"></a>
+                <a class="arr_top" href="#"><img src="./images/ico_top.png" alt="위로가기"></a>
             </div>
-            <div class="container">
+            <div class="bag_container">
                 <div class="bag_contents">
                     <a href="#"><img src="./images/bag_main.jpg" alt="메인가방"></a>
                     <div class="contents_text">
@@ -131,7 +139,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="golf_container">
                 <div class="golf_contents">
                     <img src="./images/golf_background.jpg" alt="골프배경">
                     <h1>HAZZZYS GOLF 26SS</h1>
@@ -144,23 +152,23 @@
                     <a href="#"><img src="./images/golf3.jpg" alt="골프옷3"></a>
                 </div>
             </div>
-            <div class="contatiner">
+            <div class="video_container">
                 <video src="#" autoplay muted loop></video>
             </div>
-            <div class="container">
+            <div class="event_container">
                 <h1><img src="./images/hazzys_logo_icon.png" alt="헤이즈로고">WITH HAZZYS</h1>
-                <div class="contents">
-                    <ul class="evnet">
+                <div class="event_contents">
+                    <ul class="contents_benefit">
                         <li><a href="#"><img src="./images/benefit.jpg" alt="혜택"></a></li>
                         <li><h2><a href="#">HAZZYS.COM BENEFIT GUIDE</a></h2></li>
                         <li><p>헤지스 멤버가 되고 최대 15% 할인 혜택을 받아보세요.</p></li>
                     </ul>
-                    <ul class="evnet">
+                    <ul class="contents_flagship">
                         <li><a href="#"><img src="./images/flaship.jpg" alt="플래그십스토어"></a></li>
                         <li><h2><a href="#">HAZZYS GLOBAL FLAGSHIP STORE</a></h2></li>
                         <li><p>SPACE H SHANGHAI. 상해에 오픈한 글로벌 첫 플래그십 스토어로 초대합니다.</p></li>
                     </ul>
-                    <ul class="evnet">
+                    <ul class="contents_design">
                         <li><a href="#"><img src="./images/design.jpg" alt="디자인공모전"></a></li>
                         <li><h2><a href="#">HAZZYS DESIGN COMPETITON</a></h2></li>
                         <li><p>제 2회 헤지스 디자인 공모전 수상작을 만나보세요.</p></li>
@@ -183,24 +191,24 @@
                     <dd><a href="#"><span>서비스 가입사실 확인</span></a></dd>
                     <dd>&copy;2023 HAZZYS ALL RIGHTS RESERVED</dd>
                 </dl>
-                <dl class="address">
-                    <dt>NOTIC</dt>
+                <dl class="notic">
+                    <dt>NOTCE</dt>
                     <dd>공지사항</dd>
                     <dd>이용약관</dd>
                     <dd><a href="#">개인정보 처리방침</a></dd>
                     <dd><a href="#">읽기쉬운 개인정보처리방침</a></dd>
                 </dl>
-                <dl class="address">
+                <dl class="help">
                     <dt>HELP</dt>
                     <dd>고객센터</dd>
                     <dd>패밀리인증</dd>
                 </dl>
-                <dl class="address">
+                <dl class="app">
                     <dt>APP</dt>
                     <dd><a href="#"><img src="./images/img_txt_hazzysApp.svg" alt="앱바로가기"></a></dd>
                     <dd><a href="#">다운로드<img src="./images/icon_download.svg" alt="다운로드바로가기"></a></dd>
                 </dl>
-                <dl class="address">
+                <dl class="sns">
                     <dt><img src="./images/hazzys_logo.png" alt="헤지스"></dt>
                     <dd><a href="#"><img src="./images/ico_instagram.svg" alt="인스타"></a></dd>
                     <dd><a href="#"><img src="./images/ico_youtube.svg" alt="유튜브"></a></dd>
