@@ -1,0 +1,152 @@
+/* 띠배너 */
+.top_banner {} 
+.top_banner .slide_banner {} 
+.top_banner .slide_banner a{} 
+.top_banner .slide_banner a img {} 
+.top_banner .banner_close_btn {}
+/* 전체 */
+#wrap {} 
+/* header - top */
+#wrap header {}
+#wrap header .h_top {}
+#wrap header .h_top h1 {}
+#wrap header .h_top h1 .h_logo {}
+#wrap header .h_top h1 .h_logo img {}
+#wrap header .h_top .top_lnb {}
+#wrap header .h_top .top_lnb li {}
+#wrap header .h_top .top_lnb li a {}
+#wrap header .h_top .top_lnb li img {}
+/* header - 검색탭 */
+#wrap header .search_tap {}
+#wrap header .search_tap h1 {}
+#wrap header .search_tap .tap_close_btn {}
+#wrap header .search_tap .tap_close_btn img {}
+#wrap header .search_tap .search_tap_detail {}
+#wrap header .search_tap .search_tap_detail form {}
+#wrap header .search_tap .search_tap_detail form #search_box {}
+#wrap header .search_tap .search_tap_detail form .search_btn {}
+#wrap header .search_tap .search_tap_detail form .search_btn img {}
+#wrap header .search_tap .search_tap_detail .recent_search {}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_title {}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_title h2 {}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_title .delete {}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_box {}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_box p {}
+#wrap header .search_tap .search_tap_detail .recommendation_search {}
+#wrap header .search_tap .search_tap_detail .recommendation_search li {}
+#wrap header .search_tap .search_tap_detail .recommendation_search li h2{}
+#wrap header .search_tap .search_tap_detail .recommendation_search li .recommendation_search_list {}
+#wrap header .search_tap .search_tap_detail .recommendation_search li .recommendation_search_list a {}
+#wrap header .search_tap .popular_search {}
+#wrap header .search_tap .popular_search .popular_search_title {}
+#wrap header .search_tap .popular_search .popular_search_title h2 {}
+#wrap header .search_tap .popular_search .popular_search_title p {}
+#wrap header .search_tap .popular_search .popular_chart {}
+#wrap header .search_tap .popular_search .popular_chart {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking1 {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking1 .ranking_item {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking1 .ranking_item .rank {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking1 .ranking_item .product {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking1 .ranking_item .change {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking2 {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking2 .ranking_item {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking2 .ranking_item .rank {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking2 .ranking_item .product {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking2 .ranking_item .change {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking3 {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking3 .ranking_item {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking3 .ranking_item .rank {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking3 .ranking_item .product {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking3 .ranking_item .change {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking4 {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking4 .ranking_item {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking4 .ranking_item .rank {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking4 .ranking_item .product {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking4 .ranking_item .change {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking5 {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking5 .ranking_item {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking5 .ranking_item .rank {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking5 .ranking_item .product {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking5 .ranking_item .change {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking6 {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking6 .ranking_item {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking6 .ranking_item .rank {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking6 .ranking_item .product {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking6 .ranking_item .change {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking7 {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking7 .ranking_item {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking7 .ranking_item .rank {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking7 .ranking_item .product {}
+#wrap header .search_tap .popular_search .popular_chart .popular_ranking7 .ranking_item .change {}
+/* header - bottom */
+#wrap header .h_bottom {}
+/* header - bottom gnb */
+#wrap header .h_bottom #gnb {}
+#wrap header .h_bottom #gnb li {}
+#wrap header .h_bottom #gnb li a {}
+/* LADIES depth2 */
+#wrap header .h_bottom #gnb li .ladies {}
+#wrap header .h_bottom #gnb li .ladies .ladies_title {}
+#wrap header .h_bottom #gnb li .ladies .ladies_title h1 {}
+#wrap header .h_bottom #gnb li .ladies .ladies_title .ladies_title_list {}
+#wrap header .h_bottom #gnb li .ladies .ladies_title .ladies_title_list li {}
+#wrap header .h_bottom #gnb li .ladies .ladies_title .ladies_title_list li a {}
+#wrap header .h_bottom #gnb li .ladies .ladies_title .ladies_title_list li a img {}
+#wrap header .h_bottom #gnb li .ladies .ladies_dept2 {}
+#wrap header .h_bottom #gnb li .ladies .ladies_dept2 h2 {}
+#wrap header .h_bottom #gnb li .ladies .ladies_dept2 h2 a {}
+#wrap header .h_bottom #gnb li .ladies .ladies_dept2 .ladies_dept2_list {}
+#wrap header .h_bottom #gnb li .ladies .ladies_dept2 .ladies_dept2_list li {}
+#wrap header .h_bottom #gnb li .ladies .ladies_dept2 .ladies_dept2_list li a {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_title {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_title li {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_title li a {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .new_season_beat {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .new_season_beat .nsb_detatil {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .new_season_beat .nsb_detatil p {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .new_season_beat .nsb_detatil p:nth-child(1) {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .new_season_beat .nsb_detatil p:nth-child(2) {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .goosedown {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .goosedown .gd_detail {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .goosedown .gd_detail p {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .goosedown .gd_detail p:nth-child(1) {}
+#wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .goosedown .gd_detail p:nth-child(2) {}
+/* header - bottom lnb */
+#wrap header .h_bottom .bottom_lnb {}
+#wrap header .h_bottom .bottom_lnb li {}
+#wrap header .h_bottom .bottom_lnb li a {}
+/* main */
+#wrap main {} 
+/* hero banner */
+#wrap main .hero_banner {} 
+#wrap main .hero_banner .hero_banner_slide {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_outer {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_outer a {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_outer a img {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_outer .slide_banner_outer_txt {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_outer .slide_banner_outer_txt h1 {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_outer .slide_banner_outer_txt p {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_gift {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_gift a {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_gift a img {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_gift .slide_banner_gift_txt {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_gift .slide_banner_gift_txt h1 {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_gift .slide_banner_gift_txt p {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_newseason {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_newseason a {} 
+#wrap main .hero_banner .hero_banner_slide .slide_banner_newseason a img {} 
+#wrap main .hero_banner .p_gination {} 
+#wrap main .hero_banner .p_gination .current {} 
+#wrap main .hero_banner .p_gination .all {} 
+/* snb */
+#wrap main .snb {} 
+#wrap main .snb .kakao {} 
+#wrap main .snb .kakao img {} 
+#wrap main .snb .recent {} 
+#wrap main .snb .recent img {} 
+#wrap main .snb .arr_top {} 
+#wrap main .snb .arr_top img {} 
+/* footer */
+#wrap footer {} 
