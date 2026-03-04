@@ -1,46 +1,100 @@
 /* 띠배너 */
-.top_banner {} 
-.top_banner .slide_banner {} 
-.top_banner .slide_banner a{} 
+.top_banner {
+    background-color: #100f20;
+    height: 40px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: center; align-items: center;
+    gap:50px;
+} 
+.top_banner .slide_banner {
+    overflow: hidden;
+    
+} 
+.top_banner .slide_banner a {
+    color: #fff; 
+    font-size: 0.88rem;
+} 
+.top_banner .slide_banner a:nth-child(1) {} 
+.top_banner .slide_banner a:nth-child(2) {} 
 .top_banner .slide_banner a img {} 
-.top_banner .banner_close_btn {}
+.top_banner .banner_close_btn {
+    color: #fff; 
+}
 /* 전체 */
 #wrap {} 
 /* header - top */
 #wrap header {}
-#wrap header .h_top {}
+#wrap header .h_top {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+}
+#wrap header .h_top:hover {background-color: #fff;}
 #wrap header .h_top h1 {}
 #wrap header .h_top h1 .h_logo {}
 #wrap header .h_top h1 .h_logo img {}
-#wrap header .h_top .top_lnb {}
-#wrap header .h_top .top_lnb li {}
+#wrap header .h_top .top_lnb {
+    display: flex; flex-flow: row nowrap;
+    gap: 10px;
+}
+#wrap header .h_top .top_lnb:nth-child(1) {}
+#wrap header .h_top .top_lnb:nth-child(1)::after {
+    content: '|'; display: block;
+    width: 12px; height: 12px; background: #888;
+}
+#wrap header .h_top .top_lnb li {width: 24px;}
 #wrap header .h_top .top_lnb li a {}
-#wrap header .h_top .top_lnb li img {}
+#wrap header .h_top .top_lnb li img {width: 100%;}
 /* header - 검색탭 */
-#wrap header .search_tap {}
-#wrap header .search_tap h1 {}
-#wrap header .search_tap .tap_close_btn {}
-#wrap header .search_tap .tap_close_btn img {}
+#wrap header .search_tap {
+    width: 600px; background-color: #fff;
+    position: relative;
+}
+#wrap header .search_tap .search_tap_title {
+    height: 44px; border: 1px solid #e1e1e1;
+    padding: 10px;
+}
+#wrap header .search_tap .search_tap_title h1 {}
+#wrap header .search_tap .search_tap_title .tap_close_btn {
+    width: 40px;  filter: invert(100%);
+    position: absolute; top:0; right: 10px;
+}
+#wrap header .search_tap .search_tap_title .tap_close_btn img {width: 100%;}
 #wrap header .search_tap .search_tap_detail {}
-#wrap header .search_tap .search_tap_detail form {}
-#wrap header .search_tap .search_tap_detail form #search_box {}
-#wrap header .search_tap .search_tap_detail form .search_btn {}
-#wrap header .search_tap .search_tap_detail form .search_btn img {}
+#wrap header .search_tap .search_tap_detail form {
+    background-color: #f2f2f2; height: 46px;
+}
+#wrap header .search_tap .search_tap_detail form input {}
+#wrap header .search_tap .search_tap_detail form .search_btn {width: 24px; float: right;}
+#wrap header .search_tap .search_tap_detail form .search_btn img {width: 100%;}
 #wrap header .search_tap .search_tap_detail .recent_search {}
 #wrap header .search_tap .search_tap_detail .recent_search .recent_search_title {}
 #wrap header .search_tap .search_tap_detail .recent_search .recent_search_title h2 {}
 #wrap header .search_tap .search_tap_detail .recent_search .recent_search_title .delete {}
-#wrap header .search_tap .search_tap_detail .recent_search .recent_search_box {}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_box {
+    height: 71px; border: 1px solid #e1e1e1;
+}
 #wrap header .search_tap .search_tap_detail .recent_search .recent_search_box p {}
-#wrap header .search_tap .search_tap_detail .recommendation_search {}
+#wrap header .search_tap .search_tap_detail .recommendation_search {
+    border: 1px solid #e1e1e1;
+}
 #wrap header .search_tap .search_tap_detail .recommendation_search li {}
 #wrap header .search_tap .search_tap_detail .recommendation_search li h2{}
-#wrap header .search_tap .search_tap_detail .recommendation_search li .recommendation_search_list {}
-#wrap header .search_tap .search_tap_detail .recommendation_search li .recommendation_search_list a {}
+#wrap header .search_tap .search_tap_detail .recommendation_search .recommendation_search_list {
+}
+#wrap header .search_tap .search_tap_detail .recommendation_search .recommendation_search_list a {
+    color: #ff7811;
+}
 #wrap header .search_tap .popular_search {}
-#wrap header .search_tap .popular_search .popular_search_title {}
+#wrap header .search_tap .popular_search .popular_search_title {
+    position: relative;
+}
 #wrap header .search_tap .popular_search .popular_search_title h2 {}
-#wrap header .search_tap .popular_search .popular_search_title p {}
+#wrap header .search_tap .popular_search .popular_search_title p {
+    position: absolute; top:0; right: 10px;
+}
 #wrap header .search_tap .popular_search .popular_chart {}
 #wrap header .search_tap .popular_search .popular_chart {}
 #wrap header .search_tap .popular_search .popular_chart .popular_ranking1 {}
@@ -148,5 +202,92 @@
 #wrap main .snb .recent img {} 
 #wrap main .snb .arr_top {} 
 #wrap main .snb .arr_top img {} 
+/* bag_container */
+#wrap main .bag_container {}
+#wrap main .bag_container .main_bag {}
+#wrap main .bag_container .main_bag a {}
+#wrap main .bag_container .main_bag a img {}
+#wrap main .bag_container .main_bag .contents_text {}
+#wrap main .bag_container .main_bag .contents_text h1 {}
+#wrap main .bag_container .main_bag .contents_text p {}
+#wrap main .bag_container .main_bag .contents_text a {}
+#wrap main .bag_container .main_bag .contents_text a span {}
+#wrap main .bag_container .bag_contents {}
+#wrap main .bag_container .bag_contents .bag_contents_slide {}
+#wrap main .bag_container .bag_contents .bag_contents_slide a {}
+#wrap main .bag_container .bag_contents .p_gination {}
+#wrap main .bag_container .bag_contents .p_gination .active {}
+#wrap main .bag_container .bag_contents .p_gination a {}
+/* golf_container */
+#wrap main .golf_container {}
+#wrap main .golf_container .golf_title {}
+#wrap main .golf_container .golf_title h1 {}
+#wrap main .golf_container .golf_title p {}
+#wrap main .golf_container .golf_title .view_now {}
+#wrap main .golf_container .golf_contents {}
+#wrap main .golf_container .golf_contents .golf_contents_slide {}
+#wrap main .golf_container .golf_contents .golf_contents_slide a {}
+/* video_container */
+#wrap main .video_container {}
+#wrap main .video_container video {}
+/* event_container */
+#wrap main .event_container {}
+#wrap main .event_container h1 {}
+#wrap main .event_container h1 img {}
+#wrap main .event_container .event_contents {}
+#wrap main .event_container .event_contents .flgship {}
+#wrap main .event_container .event_contents .flgship .flgship_detail {}
+#wrap main .event_container .event_contents .flgship .flgship_detail p {}
+#wrap main .event_container .event_contents .flgship .flgship_detail p img {}
+#wrap main .event_container .event_contents .flgship .flgship_detail h2 {}
+#wrap main .event_container .event_contents .flgship .flgship_detail p:nth-child(1) {}
+#wrap main .event_container .event_contents .flgship .flgship_detail p:nth-child(2) {}
+#wrap main .event_container .event_contents .benefit {}
+#wrap main .event_container .event_contents .benefit .benefit_detail {}
+#wrap main .event_container .event_contents .benefit .benefit_detail p {}
+#wrap main .event_container .event_contents .benefit .benefit_detail p img {}
+#wrap main .event_container .event_contents .benefit .benefit_detail h2 {}
+#wrap main .event_container .event_contents .benefit .benefit_detail p:nth-child(1) {}
+#wrap main .event_container .event_contents .benefit .benefit_detail p:nth-child(2) {}
+#wrap main .event_container .event_contents .design {}
+#wrap main .event_container .event_contents .design .design_detail {}
+#wrap main .event_container .event_contents .design .design_detail p {}
+#wrap main .event_container .event_contents .design .design_detail p img {}
+#wrap main .event_container .event_contents .design .design_detail h2 {}
+#wrap main .event_container .event_contents .design .design_detail p:nth-child(1) {}
+#wrap main .event_container .event_contents .design .design_detail p:nth-child(2) {}
 /* footer */
 #wrap footer {} 
+/* footer_top */
+#wrap footer .info_top {} 
+/* footer_left */
+#wrap footer .info_top .info_top_left {} 
+#wrap footer .info_top .info_top_left .address {} 
+#wrap footer .info_top .info_top_left .address dt {} 
+#wrap footer .info_top .info_top_left .address dd {} 
+#wrap footer .info_top .info_top_left .address dd:nth-child(7) {} 
+#wrap footer .info_top .info_top_left .address dd:nth-child(7) a {} 
+#wrap footer .info_top .info_top_left .address dd:nth-child(7) a span {} 
+#wrap footer .info_top .info_top_left .address dd:nth-child(9) a {} 
+#wrap footer .info_top .info_top_left .address dd:nth-child(9) a span {} 
+/* footer_right */
+#wrap footer .info_top .info_top_right {} 
+#wrap footer .info_top .info_top_right .notic {} 
+#wrap footer .info_top .info_top_right .notic dt {} 
+#wrap footer .info_top .info_top_right .notic dd {} 
+#wrap footer .info_top .info_top_right .notic dd a {} 
+#wrap footer .info_top .info_top_right .help {} 
+#wrap footer .info_top .info_top_right .help dt {} 
+#wrap footer .info_top .info_top_right .help dd {} 
+#wrap footer .info_top .info_top_right .help dd a {} 
+#wrap footer .info_top .info_top_right .app {} 
+#wrap footer .info_top .info_top_right .app dt {} 
+#wrap footer .info_top .info_top_right .app dd {} 
+#wrap footer .info_top .info_top_right .app dd a {} 
+/* footer_bottom */
+#wrap footer .info_bottom {} 
+#wrap footer .info_bottom .f_logo {} 
+#wrap footer .info_bottom .f_logo img {} 
+#wrap footer .info_bottom .sns {} 
+#wrap footer .info_bottom .sns a {} 
+#wrap footer .info_bottom .sns a img {} 
