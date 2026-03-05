@@ -1,25 +1,33 @@
 /* 띠배너 */
 .top_banner {
     background-color: #100f20;
-    height: 40px;
-    display: flex; flex-flow: row nowrap;
-    justify-content: center; align-items: center;
-    gap:50px;
+    position: relative;
 } 
 .top_banner .slide_banner {
     overflow: hidden;
-    
+    height: 40px;
+    padding-top: 10px;
 } 
 .top_banner .slide_banner a {
+    height: 40px;
     color: #fff; 
     font-size: 0.88rem;
+    display: block;
+    text-align: center;
+    animation: slide 10s linear infinite;
 } 
-.top_banner .slide_banner a:nth-child(1) {} 
-.top_banner .slide_banner a:nth-child(2) {} 
-.top_banner .slide_banner a img {} 
+@keyframes slide {
+    0% {transform: translateX(1000px);}
+    100% {transform: translateX(-1000px);}
+}
+.top_banner .slide_banner a img:nth-child(1) {padding-right: 10px;} 
+.top_banner .slide_banner a img:nth-child(2) {padding-left: 10px;} 
 .top_banner .banner_close_btn {
     color: #fff; 
-}
+    width: 12px;
+    position: absolute; right: 10px; top: 10px;
+} 
+.top_banner .banner_close_btn img {width: 100%;}
 /* 전체 */
 #wrap {} 
 /* header - top */
@@ -37,61 +45,72 @@
 #wrap header .h_top h1 .h_logo img {}
 #wrap header .h_top .top_lnb {
     display: flex; flex-flow: row nowrap;
-    gap: 10px;
+    gap: 10px; align-items: center;
+    position: relative;
 }
-#wrap header .h_top .top_lnb:nth-child(1) {}
-#wrap header .h_top .top_lnb:nth-child(1)::after {
-    content: '|'; display: block;
-    width: 12px; height: 12px; background: #888;
+#wrap header .h_top .top_lnb li:nth-child(1)::after {
+    content: ''; display: block;
+    width: 1px; height: 10px; background: #000;
+    position: absolute; top:7px; right: 165px;
 }
-#wrap header .h_top .top_lnb li {width: 24px;}
+#wrap header .h_top .top_lnb li {
+    width: 24px;
+}
 #wrap header .h_top .top_lnb li a {}
 #wrap header .h_top .top_lnb li img {width: 100%;}
 /* header - 검색탭 */
 #wrap header .search_tap {
-    width: 600px; background-color: #fff;
+    background-color:skyblue;
+    width: 600px;
+    padding: 0 15px 0;
     position: relative;
 }
 #wrap header .search_tap .search_tap_title {
-    height: 44px; border: 1px solid #e1e1e1;
+    height: 44px; border-bottom: 1px solid #e1e1e1;
     padding: 10px;
 }
-#wrap header .search_tap .search_tap_title h1 {}
+#wrap header .search_tap .search_tap_title h1 {font-weight: 600;}
 #wrap header .search_tap .search_tap_title .tap_close_btn {
-    width: 40px;  filter: invert(100%);
-    position: absolute; top:0; right: 10px;
+    width: 30px;  filter: invert(100%);
+    position: absolute; top:5px; right: 10px;
 }
 #wrap header .search_tap .search_tap_title .tap_close_btn img {width: 100%;}
 #wrap header .search_tap .search_tap_detail {}
-#wrap header .search_tap .search_tap_detail form {
-    background-color: #f2f2f2; height: 46px;
+#wrap header .search_tap .search_tap_detail form {}
+#wrap header .search_tap .search_tap_detail form input {
+    height: 46px; width: 100%; padding-left: 10px; background-color: #f2f2f2;
 }
-#wrap header .search_tap .search_tap_detail form input {}
-#wrap header .search_tap .search_tap_detail form .search_btn {width: 24px; float: right;}
+#wrap header .search_tap .search_tap_detail form .search_btn {
+    width: 24px; position: absolute; right: 30px; top:55px;
+}
 #wrap header .search_tap .search_tap_detail form .search_btn img {width: 100%;}
-#wrap header .search_tap .search_tap_detail .recent_search {}
-#wrap header .search_tap .search_tap_detail .recent_search .recent_search_title {}
-#wrap header .search_tap .search_tap_detail .recent_search .recent_search_title h2 {}
-#wrap header .search_tap .search_tap_detail .recent_search .recent_search_title .delete {}
+#wrap header .search_tap .search_tap_detail .recent_search {margin: 20px 0;}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_title {padding: 10px;}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_title h2 {font-weight: 600;}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_title .delete {
+    position: absolute; right: 20px; top:120px; font-size: 0.85rem; color: #6E6E6E;
+}
 #wrap header .search_tap .search_tap_detail .recent_search .recent_search_box {
-    height: 71px; border: 1px solid #e1e1e1;
+    height: 71px; text-align: center; margin: 20px;
 }
-#wrap header .search_tap .search_tap_detail .recent_search .recent_search_box p {}
+#wrap header .search_tap .search_tap_detail .recent_search .recent_search_box p {color: #6E6E6E;}
 #wrap header .search_tap .search_tap_detail .recommendation_search {
-    border: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1; height: 84px;
+    background-color: yellowgreen;
 }
-#wrap header .search_tap .search_tap_detail .recommendation_search li {}
-#wrap header .search_tap .search_tap_detail .recommendation_search li h2{}
+#wrap header .search_tap .search_tap_detail .recommendation_search li {margin-bottom: 10px;}
+#wrap header .search_tap .search_tap_detail .recommendation_search li h2{font-weight: 600;}
 #wrap header .search_tap .search_tap_detail .recommendation_search .recommendation_search_list {
+    background-color: yellow;
 }
 #wrap header .search_tap .search_tap_detail .recommendation_search .recommendation_search_list a {
-    color: #ff7811;
+    color: #ff7811; 
 }
 #wrap header .search_tap .popular_search {}
 #wrap header .search_tap .popular_search .popular_search_title {
     position: relative;
 }
-#wrap header .search_tap .popular_search .popular_search_title h2 {}
+#wrap header .search_tap .popular_search .popular_search_title h2 {font-weight: 600;}
 #wrap header .search_tap .popular_search .popular_search_title p {
     position: absolute; top:0; right: 10px;
 }
