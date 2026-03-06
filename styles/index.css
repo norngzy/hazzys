@@ -95,18 +95,15 @@
 }
 #wrap header .search_tap .search_tap_detail .recent_search .recent_search_box p {color: #6E6E6E;}
 #wrap header .search_tap .search_tap_detail .recommendation_search {
-    border-bottom: 1px solid #e1e1e1; height: 84px;
-    background-color: yellowgreen;
+    border-bottom: 5px solid #f2f2f2; height: 84px; margin: 20px 0;
 }
 #wrap header .search_tap .search_tap_detail .recommendation_search li {margin-bottom: 10px;}
 #wrap header .search_tap .search_tap_detail .recommendation_search li h2{font-weight: 600;}
-#wrap header .search_tap .search_tap_detail .recommendation_search .recommendation_search_list {
-    background-color: yellow;
-}
+#wrap header .search_tap .search_tap_detail .recommendation_search .recommendation_search_list {}
 #wrap header .search_tap .search_tap_detail .recommendation_search .recommendation_search_list a {
-    color: #ff7811; 
+    color: #ff7811; border:1px solid #ff7811; display: inline-block; padding: 10px; margin: 5px;
 }
-#wrap header .search_tap .popular_search {}
+#wrap header .search_tap .popular_search {background-color: yellowgreen;}
 #wrap header .search_tap .popular_search .popular_search_title {
     position: relative;
 }
