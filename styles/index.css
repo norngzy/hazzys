@@ -2,7 +2,7 @@
 .top_banner {
     background-color: #100f20;
     position: relative;
-    width: 100% 
+    width: 100%
 } 
 .top_banner .slide_banner {
     overflow: hidden;
@@ -30,7 +30,7 @@
 } 
 .top_banner .banner_close_btn img {width: 100%;}
 /* 전체 */
-#wrap {width: 100%;} 
+#wrap {width: 100%} 
 /* header - top */
 #wrap header {}
 #wrap header .h_top {
@@ -38,7 +38,7 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding: 15px;
+    padding: 40px 15px;
 }
 #wrap header .h_top:hover {background-color: #fff;}
 #wrap header .h_top h1 {}
@@ -181,13 +181,19 @@
 #wrap header .search_tap .popular_search .popular_chart .popular_ranking7 .ranking_item .product {}
 #wrap header .search_tap .popular_search .popular_chart .popular_ranking7 .ranking_item .change {}
 /* header - bottom */
-#wrap header .h_bottom {}
+#wrap header .h_bottom {
+    width: 100%; height: 52px; padding: 0 40px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
 /* header - bottom gnb */
-#wrap header .h_bottom #gnb {}
+#wrap header .h_bottom #gnb {
+    display: flex; flex-flow: row nowrap;
+}
 #wrap header .h_bottom #gnb li {}
-#wrap header .h_bottom #gnb li a {}
+#wrap header .h_bottom #gnb li a {font-weight: 700;}
 /* LADIES depth2 */
-#wrap header .h_bottom #gnb li .ladies {}
+#wrap header .h_bottom #gnb li .ladies {display: none;}
 #wrap header .h_bottom #gnb li .ladies .ladies_title {}
 #wrap header .h_bottom #gnb li .ladies .ladies_title h1 {}
 #wrap header .h_bottom #gnb li .ladies .ladies_title .ladies_title_list {}
@@ -216,13 +222,20 @@
 #wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .goosedown .gd_detail p:nth-child(1) {}
 #wrap header .h_bottom #gnb li .ladies .ladies_side .side_detatils .goosedown .gd_detail p:nth-child(2) {}
 /* header - bottom lnb */
-#wrap header .h_bottom .bottom_lnb {}
+#wrap header .h_bottom .bottom_lnb {
+    display: flex; flex-flow: row nowrap
+}
 #wrap header .h_bottom .bottom_lnb li {}
 #wrap header .h_bottom .bottom_lnb li a {}
 /* main */
 #wrap main {} 
 /* hero banner */
-#wrap main .hero_banner {} 
+#wrap main .hero_banner {
+    width: 100%; height: 100vh;
+    max-width: 1920px;
+    overflow: hidden;
+    position: relative;
+} 
 #wrap main .hero_banner .hero_banner_slide {} 
 #wrap main .hero_banner .hero_banner_slide .slide_banner_outer {} 
 #wrap main .hero_banner .hero_banner_slide .slide_banner_outer a {} 
